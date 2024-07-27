@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  display: grid;
+  grid-template-columns: 300px auto 50px;
+ 
+}
+.loginWrap{
+  width: 100px;
+}
+.loginWrap{
+  background: whitesmoke;
+  width: 500px;
+  padding: 10px 20px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.loginWrap button{
+  width: 100%;
+  background-color: #2381fa;
+  padding: 10px 20px;
+  padding-top: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+}

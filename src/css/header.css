@@ -1,0 +1,77 @@
+.header {
+    display: grid;
+    grid-template-columns: 300px auto 200px;
+    align-items: center;
+    padding: 5px 20px;
+    height: 60px;
+    border-bottom:1px solid lightgray;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+    width: 40px;
+}
+.header__logo span{
+    font-size: 22px;
+    margin-left: 10px;
+    color: grey;
+}
+.header__search{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 10px;
+}
+.header__search input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    flex: 1;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+.header__icons span{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.header__icons .material-icon{
+    color: rgb(36,36,36);
+    margin: 0px 20px;
+}
+.header__icons svg.MuiSvgIcon-root{
+    margin: 0px 10px;
+}
+
+/* header.css */
+/*.header {
+    /* Common header styles */
+   /* display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #ffffff; /* Light theme default */
+   /* color: #000000;
+    border-bottom: 1px solid #e0e0e0;
+  } */
+  
+  .header.dark {
+    background-color: #333333; /* Dark theme */
+    color: #ffffff;
+  }
+  
+  .header__search input {
+    border: 1px solid #e0e0e0;
+  }
+  
+  .header__search input:focus {
+    border-color: #6200ea;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,134 @@
+/* General Styles */
+.data {
+    flex: 1;
+    padding: 10px 0px 0px 20px;
+}
+
+/* Header Styles */
+.data__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+
+.data__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.data__headerRight svg {
+    margin: 0px 10px;
+}
+
+/* File Grid Styles */
+.data_grid {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next line */
+    gap: 20px; /* Space between file items */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* File Item Styles */
+.data__file {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    border: 1px solid lightgray;
+    margin: 10px;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data__file svg {
+    font-size: 30px; /* Increase icon size */
+    color: grey;
+    margin-bottom: 10px; /* Space between icon and file name */
+}
+
+.data__file p {
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+/* Action Icons Styles */
+.file_actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Space above action icons */
+}
+
+.file_action_icon {
+    cursor: pointer;
+    font-size: 16px; /* Reduced size of action icons */
+    color: grey;
+}
+
+.file_action_icon.active {
+    color: gold;
+}
+
+/* Tabular View Styles */
+.detailsHeader, .detailsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.detailsHeader {
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+.detailsRow {
+    background-color: #fff;
+}
+
+.detailsHeader p, .detailsRow p {
+    flex: 1; /* Allow columns to take up available space */
+    text-align: left;
+    margin: 0;
+}
+
+/* Align text for each column */
+.detailsHeader p:nth-child(1), .detailsRow p:nth-child(1) {
+    flex: 3; /* Name column */
+}
+
+.detailsHeader p:nth-child(2), .detailsRow p:nth-child(2) {
+    flex: 2; /* Owner column */
+}
+
+.detailsHeader p:nth-child(3), .detailsRow p:nth-child(3) {
+    flex: 2; /* Last Modified column */
+}
+
+.detailsHeader p:nth-child(4), .detailsRow p:nth-child(4) {
+    flex: 2; /* File Size column */
+}
+.file_link {
+    color: black;
+    text-decoration: none; /* Remove underline from links */
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.file_link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.file_link svg {
+    margin-left: 5px; /* Space between file name and icon */
+}
