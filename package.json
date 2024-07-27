@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/Akshitkt001/Drive-Clone/",
+  "homepage": "https://Akshitkt001.github.io/Drive_Colne/",
   "eslintConfig": {
     "extends": [
       "react-app",
