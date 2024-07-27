@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Akshitkt001/newrep/static/css/main.335e8a47.css",
+    "main.js": "/Akshitkt001/newrep/static/js/main.c498c8c0.js",
+    "index.html": "/Akshitkt001/newrep/index.html",
+    "main.335e8a47.css.map": "/Akshitkt001/newrep/static/css/main.335e8a47.css.map",
+    "main.c498c8c0.js.map": "/Akshitkt001/newrep/static/js/main.c498c8c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.335e8a47.css",
+    "static/js/main.c498c8c0.js"
+  ]
+}
